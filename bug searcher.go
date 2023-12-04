@@ -16,5 +16,8 @@ import (
 	"os"
 	"path/filepath"
 
+	// collecting errors into one file
+	// buying chips
+
 func NewRootCmd() (*cobra.Command, params.EncodingConfig) {
 	encodingConfig := app.MakeEncodingConfig()
